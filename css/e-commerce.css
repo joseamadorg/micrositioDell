@@ -1,0 +1,414 @@
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+
+.transparent {
+    background-color: transparent !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.is-90 {
+    width: 90% !important;
+}
+
+.has-blue-bg{
+    background-color: #1676ce;
+    padding: 7px;
+    display: inline-block;
+}
+
+.has-blue-bg-block{
+    background-color: #1676ce;
+    padding: 7px;
+    display: block;
+}
+
+.btn {
+    background-color: #1676ce;
+    color: #FFF;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    width: 100px;
+    border: none;
+}
+
+
+.section.bg_commerce_landing {
+    background: url('../images/5593hero.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.bg_comerce_sale {
+    background: url('https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 100% !important;
+}
+
+.icons{
+    display: flex;
+}
+
+i {
+    margin-right: 7px;
+}
+
+* { font-family: 'Roboto', sans-serif; 
+    border-radius: 0px !important;  
+  }
+
+  .precio {
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: .75rem;
+  font-weight: 400;
+  padding: .75em;
+  align-content: center;
+  text-align: center;
+}
+  .cantidad {
+  font-size: 2rem;
+  font-weight: 700;
+  }
+
+  .peso {
+  vertical-align: super;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #4a4a4a;
+  margin-right: .25rem;
+  }
+
+
+
+* {scroll-behavior: smooth;}
+
+.txt { font-size: 12px;}
+.blue {color: #1676cd !important;}
+.is-blue-bg { background-color: #1676cd !important; color: white;}
+
+.icons.mt-1.mb-1 {position: relative;}
+.mb-lg {margin-bottom: 8rem !important; }
+.mt-lg {margin-top: 8rem !important; }
+.alto-linea{line-height: 1.8;}
+
+span.is-danger {
+    color: #f14646;
+    font-weight: bold;
+}
+
+.precioMeli{
+    font-size: 0.9rem !important;
+}
+
+button.button.is-blue-bg.has-text-white.is-half {
+    width: 50%;
+}
+
+button.button.is-blue-bg.has-text-white.is-30 {
+  width: 150px !important;
+}
+
+footer{
+    background-color: white !important;
+}
+/*GALERIA DE FOTOS*/
+
+.b-card-slider{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .b-card-slider-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 0.3s;
+  }
+  .b-card-sl-con{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:auto;
+  }
+  .bus-prev,.bus-next{
+    position: absolute;
+    background: transparent;
+    opacity: 0.8;
+    width: 45px;
+    height:45px;
+    border-radius: 20% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1676cd;
+    font-size: 19px;
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .bus-prev{
+    top: 50%;
+    left:5%;
+    transform: translate(-50%,-50%);
+  }
+  .bus-next{
+    top: 50%;
+    right:5%;
+    transform: translate(50%,-50%);
+  }
+  .bus-prev:hover ,.bus-next:hover{
+    background: white;
+    color: #1676cd;
+  }
+  
+  .b-card-slider-container{
+    width: 20%;
+    height: auto;
+    object-fit:cover;
+  }
+  .b-card-slider-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+
+  .subtitle {
+    color: #4a4a4a;
+    font-size: 1rem !important;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.button {
+    background-color: #fff;
+    border-width: 0px !important; 
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    width: 150px !important;
+}
+
+.modal-content {
+  top: 4%;
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 15px;
+
+  margin: 0 20px;
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+  position: relative;
+  width: auto !important; 
+  max-width: 640px !important;
+}
+
+.delete{
+  position: absolute !important;
+  right: 20px !important;
+}
+
+.modal-close {
+  background: 0 0;
+  height: 40px;
+  position: absolute !important;
+  right: 0px !important;
+  top: 0px !important;
+  width: 40px;
+}
+
+#btn-reserva{
+  width: 100% !important;
+}
+
+iframe {
+  scroll-behavior: auto !important;
+}
+
+/*HERO*/
+
+
+.xop-container article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.xop-container {
+  display: flex;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+.xop-left {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url(.././images/monitor-dell.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .1s ease-in-out;
+  text-transform: uppercase;
+  filter: grayscale(85%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+ 
+.xop-right {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url(https://img.bfmtv.com/i/0/0/3030f37/f04d5a3b1b8e4999e4a05770b.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .1s ease-in-out;
+  text-transform: uppercase;
+  filter: grayscale(85%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xop-left:hover, .xop-right:hover {
+  filter: grayscale(0%);
+}
+.xop-container h1 {
+	letter-spacing: 2px;
+	font-size: 3rem;
+}
+.xop-button {
+	color: #fff;
+	background-color: #1676cd;
+	padding: 10px 6px;
+	margin: 0 1%;
+	text-align: center;
+	text-decoration: none;
+  letter-spacing: 1px;
+	display: inline-block;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.navbar-item img {
+  max-height: 70px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .xop-container {
+    flex-direction: column;
+  }
+  .navbar-item img {
+    max-height: 40px;
+  }
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: ;
+}
+
+.modal {
+  z-index: 9999 !important;
+}
+
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+  text-align: center;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 8px;
+  font-weight: bold;
+  color: 000;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
