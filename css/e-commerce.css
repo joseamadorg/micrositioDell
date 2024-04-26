@@ -61,7 +61,7 @@
 }
 
 .bg_comerce_sale {
-    background: url('https://www.cnet.com/a/img/resize/6230226bb4150bc1c04bd686d48bae1c6d8e333e/hub/2018/03/07/d839c3a0-de84-4db5-ac6a-d00104b96321/28-dell-latitude-7390-2-in-1.jpg?auto=webp&fit=crop&height=900&width=1200') no-repeat center center ;
+    background: url('../images/latitude-7350.jpg') no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -346,7 +346,6 @@ iframe {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: ;
 }
 
 .modal {
